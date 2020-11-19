@@ -74,7 +74,7 @@ public class Main {
       fun.funQuiz(); //Will call playQuiz class.  
     } else if (option == 2) {
       PlayDiceGame dice = new PlayDiceGame();
-      dice.funDice(); // will call PlayDiceGame class.
+      dice.diceGame(); // will call PlayDiceGame class.
     } else if (option == 3) {
 
       PlayClock timer = new PlayClock();
@@ -98,8 +98,8 @@ public class Main {
         end[x].bye();
       }
     } else if (option == 4) {
-      ArrayMath mint = new ArrayMath();
-      mint.arrayMath2();
+      Math mint = new Math();
+      mint.calculator();
     } else if (option == 5) {
       LocalCalendar time = new LocalCalendar();
       time.calendar();

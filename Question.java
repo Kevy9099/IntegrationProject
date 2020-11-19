@@ -1,7 +1,6 @@
 //Kevin Mak COP2006 Introduction to Programming
 /**This method Question is a variable to accept a string and return a string.
  * @author Kevin
- * @param accepts a prompt.
  * @return an answer.
  */
 
