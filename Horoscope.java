@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Horoscope {
     Scanner scan = new Scanner(System.in);
 
+    int one;
+    int two;
+    int three;
+
     public void zodiac() {
         System.out.println("Enter a Month: ");
         String month = scan.nextLine();
@@ -35,6 +39,9 @@ public class Horoscope {
             System.out.println("Your zodiac sign is: Sagittarius");
         else
             System.out.println("This is an illegal date!");
+    }
+
+    public void zodiacFortune() {
 
         String[] fortunes = {
                 "A dubious friend may be an enemy in camouflage.",
@@ -49,27 +56,33 @@ public class Horoscope {
                 "You will be traveling and coming into a fortune.",
         };
 
-        int one;
-        int two;
-        int three;
-
-        System.out.println("What's your first name?");
-        String name = scan.next();
-        one = name.length();
-
-        System.out.println("What's your favorite color?");
-        String color = scan.next();
-        two = name.length();
-
-        System.out.println("What's your favorite food?");
-        String food = scan.next();
-        three = name.length();
-
-        int res = one + two +three;
+        int res = one + two + three;
         res = res % fortunes.length;
         System.out.println(fortunes[res]);
 
+    }
+   void getName(){
+        System.out.println("What's your first name?");
+        String name = scan.next();
+        one = name.length();
+    }
 
+    void getColor(){
+        System.out.println("What's your favorite color?");
+        String color = scan.next();
+        two = color.length();
+    }
+
+    void getFood(){
+        System.out.println("What's your favorite food?");
+        String food = scan.next();
+        three = food.length();
+    }
+
+    void askQuestion(){
+        getName();
+        getColor();
+        getFood();
     }
 
 }

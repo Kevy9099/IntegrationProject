@@ -1,52 +1,13 @@
-/*
- *
- *Integration Project: My Integration Project is going to be a Trivia Quiz Game.
+import java.util.Scanner; // java library, import scanner.
+
+/**
+ * @author Kevin Mak
+ * COP2006 Introduction to Programming, 09/03/18
+ * My Integration Project is going to be a Trivia Quiz Game.
  * Questions will be base of multiple riddles. The programs greets the user, by asking their name
  * first and then a message. Next, the program waits for an input "letter" for each questions. the
  * point systems increments once, for every correct answer. While it does nothing for a wrong
  * answer. Score is base from a fraction. (success / total)
- */
-
-/*
- * Java 8 Primitive Data-types: A primitive type is predefined by the language and is named by a
- * reserved keyword. Primitive values do not share state with other primitive values. The range of
- * values is calculated as −(2^(n−1)) to (2^(n−1))−1; where n is the number of bits required.
- *
- * byte: 8-bit, Range of values that can be stored: are from -128(min) to 127(max). The byte data
- * type can be useful for saving memory in large arrays. byte = 103;
- *
- * short: 16-bit, Range of values can be stored are from −32768(min) to 32767(max). Also, using
- * short data type to save memory in large arrays. short = 4323;
- *
- * int: 32-bit, Range of values can be stored are from -2^31(min) to 2^(31-(1))(max). We use int
- * data type to define a 32-bit undefined integer. int = 4;
- *
- * long: 64-bit,Range of values that can be stored are from -2^63(min) to 2^(63-(1))(max). long data
- * type to represent large integer values. long = 230,465,323L;
- *
- * float: A single-precision 32-bit floating point. Float data type represent, save memory in large
- * arrays of floating point numbers. float = 8.0f
- *
- * double: A double-precision 64-bit floating point. double = 4.0; Used for decimal values this data
- * type should never be used for precise values, such as currency.
- *
- * boolean: Has only two possible values: true and false. This data type represents one bit of
- * information. boolean = true/false;
- *
- * char: A single 16-bit Unicode character. char = 'A';
- */
-/**
- * @author Kevin Mak
- * @version COP2006 Introduction to Programming
- * @since 09/03/18
- */
-
-import java.util.Scanner; // java library, import scanner.
-
-/**
- * main class will hold all other methods, and call them when user inputs.
- *
- * @author Kevin
  */
 
 public class Main {
@@ -103,7 +64,8 @@ public class Main {
             sign.zodiac();
         }else if (option == 7){
             Horoscope fortune = new Horoscope();
-            fortune.zodiac();
+            fortune.askQuestion();
+            fortune.zodiacFortune();
         }else if (option == 8) {
             Credits[] end = new Credits[4];
             end[0] = new Idea(); //polymorphism array
