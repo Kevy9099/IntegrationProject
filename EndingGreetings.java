@@ -1,13 +1,13 @@
 //Kevin Mak COP2006 Introduction to Programming
 
 /**
- * Endinggreetings is a sub-class of super class Credits.
+ * EndingGreetings is a sub-class of super class Credits.
  * this gives the user a little "goodbye".
  * @author Kevin
  *
  */
 
-public class Endinggreetings extends Credits {
+public class EndingGreetings extends Credits {
   
   void bye() { 
     System.out.println("\nTherefore, the end of the semester is here! I hope you have wonderful: ");

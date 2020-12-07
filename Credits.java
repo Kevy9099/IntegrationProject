@@ -12,7 +12,7 @@ public class Credits {
   void bye() {
 
     System.out.println("Student: Kevin Mak\n" 
-        + "School: Florida Guld Coast University"
+        + "School: Florida Gulf Coast University"
         + "Class: COP 2006 Introduction to Programming\n" + "Professor:Scott Vanselow ");
   }
 }
