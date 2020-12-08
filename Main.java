@@ -1,13 +1,12 @@
-import java.util.Scanner; // java library, import scanner.
+import java.util.Scanner;
 
 /**
  * @author Kevin Mak
  * COP2006 Introduction to Programming, 09/03/18
- * My Integration Project is going to be a Trivia Quiz Game.
- * Questions will be base of multiple riddles. The programs greets the user, by asking their name
- * first and then a message. Next, the program waits for an input "letter" for each questions. the
- * point systems increments once, for every correct answer. While it does nothing for a wrong
- * answer. Score is base from a fraction. (success / total)
+ * this Integration Project objective was to help understand the basic functionality, implementation,
+ * and critical thinking in programming. The project performs simple widgets, that imitated a windows widget
+ * toolbar. The project was programmed using Java Programming and implemented skills such as Class, Objects,
+ * Array, Conditional Loops, User Input, Enhance If-Loop, Inheritance, and Polymorphism.
  */
 
 public class Main {
@@ -77,7 +76,7 @@ public class Main {
                 end[x].bye();
             }
         } else {
-            System.out.println("Choose an option between 1 - 4.");
+            System.out.println("Choose an option between 1 and 8.");
         }
     }
 }
