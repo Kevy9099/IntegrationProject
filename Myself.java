@@ -1,17 +1,14 @@
-//Kevin Mak COP2006 Introduction to Programming
-
 /**
- * Myself is sub-class to super class Credits. 
- * A little about myself. 
- * @author Kevin
- *
+ * @author Kevin Mak COP2006 Introduction to Programming
+ * Myself is sub-class to super class Credits. This class is a simple introduction to myself.
  */
 
 public class Myself extends Credits {
   
   void bye() {
-    System.out.println("\nQuick Knowledge about myself:"
-        + " I'm a Sophmore at University of Florida Gulf Coast. "
-        + "\nI'm 24 years old, and a Software Engineering Major."); 
+    System.out.println("\n");
+    System.out.println("Author Introduction: "
+        + "Hello my name is Kevin Mak and I'm 26 years old." + "\n"
+            + "I'm a Senior at University of Florida Gulf Coast majoring in Software Engineering B.S.");
   }
 }

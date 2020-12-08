@@ -1,22 +1,17 @@
-// Kevin Mak COP2006 Introduction to Programming
-
 /**
+ * @author Kevin Mak COP2006 Introduction to Programming
  * Idea is a sub-class to the super class credits.
  * this gives a small idea, on how I created this project.
- * @author Kevin
- *
  */
 
 public class Idea extends Credits {
   
   void bye() {
     super.bye();
-    System.out.println("\nProject: This Integration project was given,"
-        + " to increase our knowledge of the Java langauge.");
-    System.out.println("I started with a simply Riddle Quiz, but with more requirements added"
-        + "it got diffcult to integrate revelent topics.");
-    System.out.println(" So, I decided to add other classes, and call methods to main."
-        + " Allowing the user to input a number for an option."
-        + "\nTherefore, this project became a kind of like a widget?.");
+    System.out.println("\n");
+    System.out.println("This Integration Project is to help understand the basic functionality, implementation,\n" +
+            "and critical thinking in programming. The project performs simple widgets, that imitated a windows widget\n" +
+            "toolbar. The project was programmed using Java Programming and implemented skills such as Class, Objects,\n" +
+            "Array, Conditional Loops, User Input, Enhance If-Loop, Inheritance, and Polymorphism.");
   }
 }

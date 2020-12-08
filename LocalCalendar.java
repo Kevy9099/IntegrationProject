@@ -11,8 +11,8 @@ public class LocalCalendar {
      */
     public void calendar() {
 
-        int firstday = 1;
-        int[][] mycalendar = new int[6][7];
+        int firstDay = 1;
+        int[][] myCalendar = new int[6][7];
         System.out.println("November");
         String nameOfTheWeeks = "\n" + "Mon\t" + "Tue\t" + "Wed\t"
                 + "Thu\t" + "Fri\t" + "Sat\t" + "Sun\t";
@@ -30,8 +30,8 @@ public class LocalCalendar {
                     continue;
                 }
 
-                mycalendar[i][j] = firstday++;
-                if (firstday > lengthOfMonth) {
+                myCalendar[i][j] = firstDay++;
+                if (firstDay > lengthOfMonth) {
                     break month;                   // the execution will continue after the outer loop
                 }
             }
@@ -39,7 +39,7 @@ public class LocalCalendar {
 
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 7; j++) {
-                System.out.print((mycalendar[i][j] == 0 ? " " : mycalendar[i][j]) + "\t");
+                System.out.print((myCalendar[i][j] == 0 ? " " : myCalendar[i][j]) + "\t");
                 // replace 0's in the array with spaces
                 if (j == 6) {
                     System.out.println();
