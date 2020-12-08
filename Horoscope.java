@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/**
+ * @author Kevin Mak COP2006 Introduction to Programming
+ * A class that reads and write you zodiac sign and predicts your fortune.
+ */
 
 public class Horoscope {
     Scanner scan = new Scanner(System.in);

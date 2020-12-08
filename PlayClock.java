@@ -1,14 +1,13 @@
 /**
  * @author Kevin Mak COP2006 Introduction to Programming
+ * Shows the current time in three different format.
  */
 
 public class PlayClock {
-    //Three Variables
     private int hour;
     private int minute;
     private int second;
 
-    //invoke the constructor with three arguments. User entering with 0 argument.
     public PlayClock() {
         this(0, 0, 0);
     }
@@ -19,18 +18,14 @@ public class PlayClock {
      * @param h for Hour.
      */
     public PlayClock(int h) {
-    /*invoke the hour integer. 
-    If it five the output will be 5 0 0 or five o'clock. User entering with 1 argument. */
         this(h, 0, 0);
     }
 
-    //invoke the hour and the minute. User entering with 2 argument.
     public PlayClock(int h, int m) {
         this(h, m, 0);
     }
 
     public PlayClock(int h, int m, int s) {
-        // constructor with three argument, invokes the hour, minute, and second.
         setTime(h, m, s);
     }
 

@@ -1,7 +1,8 @@
 import java.util.Random; /* the random import allows the IDE to use random numbers, depending what i
 set it to.*/
-/*
- * Kevin Mak COP2006 Introduction to Programming
+/**
+ * @author Kevin Mak COP2006 Introduction to Programming
+ * A Random dice roller allows the user to play against computer logic.
  */
 
 public class PlayDiceGame {
@@ -23,12 +24,6 @@ public class PlayDiceGame {
             computerDie = random.nextInt(6) + 1;
             userDie = random.nextInt(6) + 1;
 
-            /*
-             * the if-else statements allows me to create a score, for a random dice game. this game is
-             * played between a computer and the user. it is random, so the user doesnt need to input
-             * anything.
-             */
-
             if (computerDie > userDie) {
                 computerScore += 1;
                 System.out.println("Computer won turn " + turn);
@@ -45,7 +40,7 @@ public class PlayDiceGame {
         } else if (userScore > computerScore) {
             System.out.println("User was the grand winner, winning " + userScore + " out of "
                     + totalNumberOfTurns + " turns");
-        } else if (computerScore == userScore) {
+        } else {
             System.out.println("It was a tie with computer winning " + computerScore
                     + " turns and user winning" + userScore + " turns all out of " + totalNumberOfTurns);
         }
