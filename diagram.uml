@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="200.0" y="270.5">LocalCalendar</node>
+    <node x="622.0" y="181.5">PlayClock</node>
+    <node x="1535.0" y="270.5">EndingGreetings</node>
+    <node x="20.0" y="171.0">Horoscope</node>
+    <node x="1287.0" y="270.5">Idea</node>
+    <node x="1051.0" y="259.5">PlayDiceGame</node>
+    <node x="840.0" y="204.5">Special</node>
+    <node x="399.00000000000006" y="0.0">Question</node>
+    <node x="1411.0" y="270.5">Myself</node>
+    <node x="665.6666666666667" y="544.0">Main</node>
+    <node x="392.00000000000006" y="215.5">PlayQuiz</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="EndingGreetings">
+      <point x="69.64285714285711" y="-27.0" />
+      <point x="810.3095238095239" y="524.0" />
+      <point x="1619.0" y="524.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="PlayDiceGame">
+      <point x="26.785714285714334" y="-27.0" />
+      <point x="767.452380952381" y="484.0" />
+      <point x="1159.0" y="484.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Main" target="LocalCalendar">
+      <point x="-48.214285714285666" y="-27.0" />
+      <point x="692.452380952381" y="504.0" />
+      <point x="238.0" y="504.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="PlayClock">
+      <point x="-5.35714285714289" y="-27.0" />
+      <point x="735.3095238095239" y="464.0" />
+      <point x="711.0" y="464.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="Horoscope" target="Horoscope">
+      <point x="-53.33333333333337" y="126.5" />
+      <point x="46.66666666666663" y="444.0" />
+      <point x="0.0" y="444.0" />
+      <point x="0.0" y="297.5" />
+      <point x="-80.0" y="-0.0" />
+    </edge>
+    <edge source="Main" target="Horoscope">
+      <point x="-69.64285714285711" y="-27.0" />
+      <point x="671.0238095238096" y="524.0" />
+      <point x="100.0" y="524.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="PlayClock" target="PlayClock">
+      <point x="-59.33333333333334" y="116.0" />
+      <point x="651.6666666666667" y="433.5" />
+      <point x="602.0" y="433.5" />
+      <point x="602.0" y="297.5" />
+      <point x="-89.0" y="-0.0" />
+    </edge>
+    <edge source="Main" target="Special">
+      <point x="16.071428571428555" y="-27.0" />
+      <point x="756.7380952380952" y="474.0" />
+      <point x="968.25" y="474.0" />
+      <point x="42.75" y="93.0" />
+    </edge>
+    <edge source="PlayDiceGame" target="PlayDiceGame">
+      <point x="-72.0" y="38.0" />
+      <point x="1087.0" y="355.5" />
+      <point x="1031.0" y="355.5" />
+      <point x="1031.0" y="297.5" />
+      <point x="-108.0" y="-0.0" />
+    </edge>
+    <edge source="Main" target="PlayQuiz">
+      <point x="-26.785714285714334" y="-27.0" />
+      <point x="713.8809523809523" y="484.0" />
+      <point x="487.00000000000006" y="484.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="Main" target="Myself">
+      <point x="58.928571428571445" y="-27.0" />
+      <point x="799.5952380952381" y="514.0" />
+      <point x="1463.0" y="514.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="Idea">
+      <point x="48.214285714285666" y="-27.0" />
+      <point x="788.8809523809523" y="504.0" />
+      <point x="1339.0" y="504.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="PlayQuiz" target="PlayQuiz">
+      <point x="-63.333333333333314" y="82.0" />
+      <point x="423.66666666666674" y="399.5" />
+      <point x="372.00000000000006" y="399.5" />
+      <point x="372.00000000000006" y="297.5" />
+      <point x="-95.0" y="-0.0" />
+    </edge>
+    <edge source="Special" target="Special">
+      <point x="-42.75" y="93.0" />
+      <point x="882.75" y="410.5" />
+      <point x="820.0" y="410.5" />
+      <point x="820.0" y="297.5" />
+      <point x="-85.5" y="-0.0" />
+    </edge>
+    <edge source="PlayQuiz" target="Question">
+      <point x="-47.5" y="-82.0" />
+      <point x="439.50000000000006" y="146.0" />
+      <point x="443.00000000000006" y="146.0" />
+      <point x="-44.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="601.0" y="335.0" />
+  <SelectedNodes>
+    <node>PlayQuiz</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
