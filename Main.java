@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * @author Kevin Mak
  * COP2006 Introduction to Programming, 09/03/18
- * this Integration Project objective was to help understand the basic functionality, implementation,
+ * This Integration Project is to help understand the basic functionality, implementation,
  * and critical thinking in programming. The project performs simple widgets, that imitated a windows widget
  * toolbar. The project was programmed using Java Programming and implemented skills such as Class, Objects,
  * Array, Conditional Loops, User Input, Enhance If-Loop, Inheritance, and Polymorphism.
@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Main {
 
     /**
-     * call other methods.
-     *
-     * @param args of strings.
+     * The main class is to establish connection between other classes. By accepting a user input (integer)
+     * the specific class runs.
+     * @param args accepts and reads arrays of strings.
      */
     public static void main(String[] args) {
 
